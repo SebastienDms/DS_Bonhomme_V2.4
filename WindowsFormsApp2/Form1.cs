@@ -215,25 +215,6 @@ namespace WindowsFormsApp2
                 bufferG.Render();
                 Thread.Sleep(200);
             }
-            /*if(cpt==0)
-            {
-                g.Clear(TV.BackColor);
-                g.DrawString("YELLOW IS THE WINNER !!", Drawfont, Drawbrush, 260, 5);
-                Stade.Coureur = new Sportif(TV, 370, 100, 95, 50, 0, Math.PI / 6, Stade.Coureur.Crayon, Stade.Coureur.Pinceau);
-                Stade.Coureur.Afficher_de_face(g);
-                bufferG.Render();
-
-            }
-            else
-            {
-                g.Clear(TV.BackColor);
-                g.DrawString("YELLOW IS THE WINNER !!", Drawfont, Drawbrush, 260, 5);
-                Stade.Coureur.Brasg.Angle = Math.PI / 2;
-                Stade.Coureur.Walk_face();
-                Stade.Coureur.Afficher_de_face(g);
-                bufferG.Render();
-            }
-            cpt++;*/
         }
     }
 }
